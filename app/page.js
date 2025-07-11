@@ -126,6 +126,7 @@ export default function HomePage() {
     },
   ];
 
+
   return (
     <>
       {/* Hero Section */}
@@ -344,7 +345,7 @@ export default function HomePage() {
                   ))}
                 </div>
                 <p className="text-[color:var(--foreground)]/80 mb-6 leading-relaxed">
-                  "{testimonial.content}"
+                  {testimonial.content}
                 </p>
                 <div>
                   <div className="font-semibold">{testimonial.name}</div>
