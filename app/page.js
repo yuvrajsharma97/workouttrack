@@ -66,14 +66,14 @@ export default function HomePage() {
       name: "Sarah Johnson",
       role: "Fitness Enthusiast",
       content:
-        "FitTracker transformed my workout routine. I've never been more consistent!",
+        "FitTracker transformed my workout routine. I have never been more consistent!",
       rating: 5,
     },
     {
       name: "Mike Chen",
       role: "Personal Trainer",
       content:
-        "The analytics help me track my clients' progress like never before.",
+        "The analytics help me track my clients progress like never before.",
       rating: 5,
     },
     {
@@ -125,7 +125,6 @@ export default function HomePage() {
       buttonText: "Coming Soon...",
     },
   ];
-
 
   return (
     <>
